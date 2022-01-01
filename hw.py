@@ -25,7 +25,7 @@ class Judge:
                     continue
                 if num[i] == self.answer[j]:
                     count_B += 1
-        s = 'Your guess is ' + str(num) + '; the result is ' + str(count_A) + 'A' + str(count_B) + 'B'
+        s = 'You guess is ' + str(num) + '; the result is ' + str(count_A) + 'A' + str(count_B) + 'B'
         print(s)
         return count_A == len(num)
 
